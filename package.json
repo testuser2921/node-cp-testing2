@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "sonar": "node node-sonar.js",
+    "sonar": "node node-sonar.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "sonarqube-scanner": "^3.0.1",
     "sonarqube-scanner": "^3.0.1",
     "express": "^4.18.2"
   }
